@@ -21,7 +21,7 @@ namespace ContosoUniversity
             Configuration = configuration;//test comment
         }
 
-        public IConfiguration Configuration { get; }
+        public IConfiguration Configuration { get; }// comment 2
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
