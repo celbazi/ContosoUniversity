@@ -8,7 +8,7 @@ namespace ContosoUniversity.Models
         A, B, C, D, F
     }
 
-    public class Enrollment
+    public class Enrollment // Inscription
     {
         public int EnrollmentID { get; set; }
         public int CourseID { get; set; }
